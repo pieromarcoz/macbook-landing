@@ -8,6 +8,7 @@ import Performance from "./components/Performance.jsx";
 import Features from "./components/Features.jsx";
 import Highlights from "./components/Highlights.jsx";
 import Footer from "./components/Footer.jsx";
+import { Analytics } from '@vercel/analytics/react';
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -23,6 +24,7 @@ function App() {
             <Features/>
             <Highlights/>
             <Footer/>
+            <Analytics />
         </main>
     )
 }
